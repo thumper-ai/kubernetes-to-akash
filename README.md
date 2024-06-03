@@ -4,7 +4,7 @@
 This repository is dedicated to creating a Kubernetes to Akash dataset and providing DSPy examples for benchmarking k8s to akt conversion performance. It serves as a resource for developers and researchers interested in evaluating and optimizing akash yaml conversion and generation.
 
 ## Purpose
-The primary goal of this repository is to facilitate the development and testing of data conversion and processing pipelines from Kubernetes clusters to Akash networks. Additionally, it provides practical examples using DSPy to benchmark these conversions, helping users to assess performance and efficiency.
+The primary goal of this repository is to facilitate the development and testing of llm-based conversion to and generation of Akash deployment yamls. Additionally, it provides practical examples using DSPy to benchmark these conversions, helping developers to assess performance and efficiency of these tools.
 
 ## Repository Structure
 - `data/`: Contains datasets with folders for each application. Inside each app folder is a deploy.yaml for the akash deployment and a kubernetes_deployment.yaml for the kubernetes deployment yaml. 
@@ -16,7 +16,7 @@ The primary goal of this repository is to facilitate the development and testing
 ## Getting Started
 
 ### Prerequisites
-- Akash network access / funded wallet or local gpu withh vLLM or Ollama
+- Akash Console and AKT funded wallet or local gpu withh vLLM or Ollama
 - Python 3.8 or higher
 - DSPy library installed
 
